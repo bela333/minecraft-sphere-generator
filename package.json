@@ -1,0 +1,26 @@
+{
+  "name": "minecraft-sphere-generator",
+  "version": "1.0.0",
+  "description": "A sphere model generator for Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bela333/minecraft-sphere-generator.git"
+  },
+  "author": "bela333",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bela333/minecraft-sphere-generator/issues"
+  },
+  "homepage": "https://github.com/bela333/minecraft-sphere-generator#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
