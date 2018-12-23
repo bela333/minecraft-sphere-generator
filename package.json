@@ -22,5 +22,9 @@
     "typescript": "^3.2.2",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@types/pixi.js": "^4.8.6",
+    "pixi.js": "^4.8.4"
   }
 }

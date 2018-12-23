@@ -5,6 +5,15 @@
     <title>Sphere Gen</title>
 </head>
 <body>
-    
+    Equirectangular image: <input type="file" id="inputFile">
+    <br>
+    Resolution: <input type="number" id="" value="128">
+    <br>
+    <button id="generate">Generate</button>
+    <br>
+    <div id="canvasStorage"></div>
+    <script id="shader" type="shader">
+        <%= htmlWebpackPlugin.options.fs.readFileSync("src/shader.glsl") %>
+    </script>
 </body>
 </html>
