@@ -66,6 +66,7 @@ void main(){
     float yaw = (atan(higher.x, higher.y)/PI+1.0)/2.0;
     float pitch = (asin(higher.z/length(higher))/(PI/2.0)+1.0)/2.0;
     vec2 uv2 = vec2(yaw, pitch);
+    uv2.y = 1.0-uv2.y;
     uv2 = unmapCoord(uv2);
     //gl_FragColor = vec4(uv2, 0, 1);
     gl_FragColor = texture2D(uSampler, uv2);
