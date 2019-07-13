@@ -9,6 +9,11 @@ export function generate(resoluton: number, texturePrefix: string): object {
             "w": `block/${texturePrefix}_west`,
             "e": `block/${texturePrefix}_east`,
         },
+        "display": {
+            "head": {
+                "scale": [1.5, 1.5, 1.5]
+            }
+        },
         "ambientocclusion": false,
         "elements": <any[]>[]
     };
